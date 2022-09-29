@@ -71,9 +71,12 @@ a:hover {
     display: flex;
 }
 .right {
-    padding: 1px;
     border: 5px solid rgb(223, 226, 59);
     border-radius: 8px;
+    background-image: url(./container1.jpg);
+    background-repeat: no-repeat;
+    width: 1800px;
+    height: 300px;
 }
 
 .left {
