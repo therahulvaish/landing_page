@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    /* border: 1px solid green; */
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: auto;
+}
+
+.navbar {
+    background-color: #1f2937;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    border-bottom: 2px solid white;
+
+}
+
+.logo {
+    font-weight: 900;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1100px;
+    gap: 50px;
+}
+
+.container1 ul {
+    display: flex;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1100px;
+    gap: 50px;
+}
+
+li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: grey;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+    background-color: #1f2937;
+    color: #fff;
+}
+
+.left, .right {
+    display: flex;
+}
+.right {
+    padding: 1px;
+    border: 5px solid rgb(223, 226, 59);
+    border-radius: 8px;
+}
+
+.left {
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+p {
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.cards .container3 {
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    gap: 20px;
+    flex: 1;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    height: auto;
+    width: 250px;
+    border: 5px solid rgb(27, 117, 95);
+    border-radius: 20px;
+    padding: 5px 5px;
+}
+
+.cards h1 {
+    padding: 20px 0;
+    color: firebrick;
+}
+
+.mid-section {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(201, 201, 201);
+    margin: 20px 0;
+    margin-top: 30px;
+}
+
+.container4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1100px;
+    padding: 60px 180px;
+}
+
+.words {
+    font-size: 20px;
+}
+
+.signature {
+    text-align: right;
+}
+
+.bottom-section {
+    display: flex;
+    justify-content: center;
+}
+
+.container5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1100px;
+}
+
+.box {
+    display: flex;
+    background-color: rgb(43, 151, 253);
+    border: 3px solid rgb(43, 151, 253);
+    border-radius: 5px;
+    justify-content: center;
+    margin: 40px 0;
+    padding: 30px 60px;
+    gap: 80px;
+    color: #fff;
+}
+
+.b2 {
+    display: flex;
+    align-self: center;
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    margin-top: 10px;
+    background-color: #1f2937;
+    color: #fff;
+    font-weight: 700;
+}
